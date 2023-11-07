@@ -1,9 +1,12 @@
 # Employee-Attrition-Analysis
 ## Identifying Factors Influencing Employee Attrition rate
+
 ## Objective: 
 Determine the factors that contribute to employee attrition within the company and provide insights to reduce attrition rates
+
 ## Introduction:
 In today's dynamic business landscape, addressing employee attrition is a top priority for organizations. This analysis delves into the reasons behind employee departures ("Attrition-Yes") and retentions ("Attrition-No"), exploring factors like years of service, performance, compensation, and work hours. We provide actionable recommendations to help reduce attrition and improve workplace satisfaction and productivity. 
+
 ## Data Cleaning and Processing:
 1.	The available data with table name hr_data contains discrepancies which has to be taken care.
 2.	Gender & Position column has incompatible data:
@@ -26,6 +29,7 @@ V.	LastPromotionDate Column was unable to modify hence followed different approa
 a.	First datatype of the column was changed from text to varchar(50)
 b.	Then the data inside the column was converted as below.
 c.	Then the data type of the column was changed from varchar to date.
+
 Now the data is cleaned and feasible for analysing the data.
 
 ## Data Analysis: 
@@ -85,5 +89,6 @@ Here we can observe that there is high rate of attrition from Data Scientist, Fi
 9.	Implement health and well-being programs to support employees in managing their physical and mental health. A healthy and happy workforce is more likely to be productive and stay with the organization.
 10.	Develop a clear succession plan to ensure that experienced employees can take on leadership roles as they become available. This can provide a path for career growth and retention.
 11.	Conduct exit interviews to understand why employees are leaving the organization. Use this feedback to continuously improve the work environment and address any issues that may be contributing to attrition.
+
 These recommendations can help the organization address the factors influencing attrition and create a more positive and productive work environment. Implementing these suggestions can lead to higher employee satisfaction and retention.
 
